@@ -1,0 +1,76 @@
+
+.contactActive {
+    background-color: #B2FFA8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmation-message {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.confirmation-message h2 {
+    font-size: 28px;
+    color: #5A2C75;
+}
+
+.confirmation-message img {
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.confirmation-info {
+    max-width: 600px;
+}
+
+.confirmation-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+.confirmation-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+.confirmation-info img {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.confirmation-info address {
+    font-style: normal;
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.confirmation-info a {
+    color: #5A2C75;
+    text-decoration: none;
+}
+
+.confirmation-info a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #F7F8FB;
+    padding-bottom: 24px;
+}
+
+header {
+    position: fixed;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    width: 200px;
+}
+
+.navHolder {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+    background-image: url(../images/logo.svg);
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.navItems {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 30px 78px;
+}
+
+.navItems .img {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navItems .home {
+    background-image: url(../images/home_icon.svg);
+}
+
+.navItems .profile {
+    background-image: url(../images/profile_icon.svg);
+}
+
+.navItems .contact {
+    background-image: url(../images/contact_icon.svg);
+}
+
+.navItems .settings {
+    background-image: url(../images/setting_icon.svg);
+}
+
+.navItems p, header .logout {
+    color: #211F54;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    width: 44px;
+    text-decoration: none;
+}
+
+.screen {
+    width: 100%;
+    margin-top: 0;
+    margin-right: 24px;
+    margin-left: 232px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.screenHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.backLogo {
+    width: 30px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../images/back_icon.svg);
+    color: #211F54;
+}
+
+.housingLetter {
+    font-size: 20px;
+}
+
+h1, h2, h3, p, strong, a, label, input, ul, i, span, select, input {
+    margin: 0;
+    font-family: "montserrat", sans-serif;
+    color: #211F54;
+}
+
+span {
+    font-size: 12px;
+}
+
+.btn .formButton {
+    background-color: #64D49C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn .formButton:hover {
+    background-color: #86E7B8;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 22px;
+    background-color: #64D49C;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #86E7B8;
+}
+
+.button2 {
+    display: block;
+    width: 100%;
+    padding: 16px 24px;
+    background-color: #64D49C;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: #86E7B8;
+}
